@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NoticeSection = () => {
   return (
-    <div className="bg-gray-100 py-24">
+    <div className="bg-slate-50 py-24">
       <Container>
         <div className="flex flex-col md:flex-row gap-12">
           <div className="p-6 bg-white rounded space-y-6">

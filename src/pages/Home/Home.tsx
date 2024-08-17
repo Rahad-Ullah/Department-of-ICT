@@ -1,6 +1,7 @@
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Banner from "./Banner";
 import NoticeSection from "./NoticeSection";
+import Services from "./Services";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <NoticeSection/>
+      <Services/>
     </div>
   );
 };
