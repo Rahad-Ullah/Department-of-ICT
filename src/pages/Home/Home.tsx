@@ -4,6 +4,7 @@ import NoticeSection from "./NoticeSection";
 import Services from "./Services";
 import NewsSection from "./NewsSection";
 import FeatureSection from "./FeatureSection";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Services/>
       <NewsSection/>
       <FeatureSection/>
+      <Footer/>
     </div>
   );
 };
