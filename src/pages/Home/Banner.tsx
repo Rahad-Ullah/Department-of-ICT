@@ -14,7 +14,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className={`p-2 py-8 md:py-24 mb-10 bg-[url('/src/assets/images/Banner.jpg')] bg-no-repeat bg-cover bg-center bg-black bg-blend-overlay bg-opacity-20`}
+        className={`p-2 py-8 md:py-24 bg-[url('/src/assets/images/Banner.jpg')] bg-no-repeat bg-cover bg-center bg-black bg-blend-overlay bg-opacity-20`}
       >
         <div className="">
           <h3 className="md:text-xl text-center text-white mb-6 md:mb-8">
