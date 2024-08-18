@@ -122,14 +122,11 @@ const Navbar = () => {
               <div className="grid w-[400px] p-2 z-50">
                 <NavigationMenuLink asChild>
                   <Link
-                    to="/management"
+                    to="/"
                     className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50"
                   >
                     <div className="text-sm font-medium leading-none group-hover:underline">
-                      Product and Category Management
-                    </div>
-                    <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                      Add, delete, update product and category.
+                    অধিনস্ত দপ্তর/ সংস্থার তালিকা
                     </div>
                   </Link>
                 </NavigationMenuLink>
@@ -146,14 +143,21 @@ const Navbar = () => {
               <div className="grid w-[400px] p-2 z-50">
                 <NavigationMenuLink asChild>
                   <Link
-                    to="/management"
+                    to="/"
                     className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50"
                   >
                     <div className="text-sm font-medium leading-none group-hover:underline">
-                      Product and Category Management
+                      চলমান প্রকল্প
                     </div>
-                    <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                      Add, delete, update product and category.
+                  </Link>
+                </NavigationMenuLink>
+                <NavigationMenuLink asChild>
+                  <Link
+                    to="/"
+                    className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50"
+                  >
+                    <div className="text-sm font-medium leading-none group-hover:underline">
+                      ক্রয় পরিকল্পনা
                     </div>
                   </Link>
                 </NavigationMenuLink>
@@ -170,14 +174,21 @@ const Navbar = () => {
               <div className="grid w-[400px] p-2 z-50">
                 <NavigationMenuLink asChild>
                   <Link
-                    to="/management"
+                    to="/"
                     className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50"
                   >
                     <div className="text-sm font-medium leading-none group-hover:underline">
-                      Product and Category Management
+                      আইন ও বিধি
                     </div>
-                    <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                      Add, delete, update product and category.
+                  </Link>
+                </NavigationMenuLink>
+                <NavigationMenuLink asChild>
+                  <Link
+                    to="/"
+                    className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50"
+                  >
+                    <div className="text-sm font-medium leading-none group-hover:underline">
+                      নীতিমালা
                     </div>
                   </Link>
                 </NavigationMenuLink>
