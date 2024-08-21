@@ -5,6 +5,7 @@ import Services from "./Services";
 import NewsSection from "./NewsSection";
 import FeatureSection from "./FeatureSection";
 import Footer from "./Footer";
+import VideoSection from "./VideoSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services/>
       <NewsSection/>
       <FeatureSection/>
+      <VideoSection/>
       <Footer/>
     </div>
   );
