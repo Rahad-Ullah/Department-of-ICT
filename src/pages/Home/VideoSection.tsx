@@ -4,7 +4,7 @@ import { MoveRight } from "lucide-react";
 
 const VideoSection = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 bg-slate-50">
       <Container>
         <h1 className="text-3xl font-medium text-center my-8 mb-10">
           ভিডিওসমূহ
