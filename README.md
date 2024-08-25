@@ -7,7 +7,7 @@
 - React
 - Redux
 - Tailwind CSS
-- Ant Design
+- Shadecn UI
 - React Router
 
 ## Live Site Link
