@@ -4,10 +4,12 @@
 
 ## Used Technologies:
 
+- TypeScript
 - React
 - Redux
 - Tailwind CSS
 - Shadecn UI
+- Redix UI
 - React Router
 
 ## Live Site Link
